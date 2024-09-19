@@ -62,7 +62,7 @@ body {
     width: 100%;
     height: 100%;
 
-    position: fixed;
+    position: absolute;
     display: flex;
     background-color: #c0e6fc;
     transition: opacity 1s ease;
@@ -159,5 +159,6 @@ h1:hover{
     font-size: 23px;
     opacity:0;
     transition: transform 0.3s ease-in, opacity 0.5s ease-in-out;
-    width: 32%;
+    width: 300px;
+    height:auto;
 }
