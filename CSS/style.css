@@ -61,7 +61,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-y: auto;
-    position: absolute;
+    position: fixed;
     display: flex;
     background-color: #c0e6fc;
     transition: opacity 1s ease;
