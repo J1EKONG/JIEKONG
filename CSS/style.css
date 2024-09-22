@@ -15,7 +15,6 @@ body {
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
     transition: transform 0.3s ease;
 }
 
@@ -61,7 +60,7 @@ body {
 .JIEKONG {
     width: 100%;
     height: 100%;
-
+    overflow-y: auto;
     position: absolute;
     display: flex;
     background-color: #c0e6fc;
@@ -160,7 +159,18 @@ h1:hover{
     opacity:0;
     transition: transform 0.3s ease-in, opacity 0.5s ease-in-out;
     width: 370px;
-    height:auto;
+    height: auto;
+    box-sizing:border-box;
+    margin: auto; 
+}  
+  
+@media (max-width: 767px) {  
+    .tale {  
+        font-size: 19px; /* 减小字体大小 */  
+        width: 70%; /* 使宽度响应于屏幕宽度 */  
+        margin: auto; /* 增加顶部和底部边距，并居中显示 */ 
+        height: auto; 
+    }  
 }
 p {  
     text-indent: 2em; 
